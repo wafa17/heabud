@@ -68,7 +68,7 @@
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
-          <!-- <section
+          <section
             class="elementor-section elementor-inner-section elementor-element elementor-element-6a44bbf elementor-section-full_width elementor-section-height-default elementor-section-height-default"
             data-id="6a44bbf"
             data-element_type="section"
@@ -143,7 +143,7 @@
                 </div>
               </div>
             </div>
-          </section> -->
+          </section>
         </v-col>
       </v-row>
       <div class="svg-border-waves text-white">

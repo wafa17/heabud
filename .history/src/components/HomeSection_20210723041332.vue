@@ -22,7 +22,10 @@
                 Hero Feature
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
-
+              <div class="elementor-image">
+													<a href="https://halofina.onelink.me/CEgY/WebBanner">
+							            <img src="https://halofina.com/wp-content/uploads/2021/07/App-Store.svg" class="attachment-full size-full" alt="" loading="lazy">								</a>
+							</div>
               <div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
                   <svg
@@ -68,82 +71,6 @@
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
-          <!-- <section
-            class="elementor-section elementor-inner-section elementor-element elementor-element-6a44bbf elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-            data-id="6a44bbf"
-            data-element_type="section"
-          >
-            <div class="elementor-container elementor-column-gap-no">
-              <div class="elementor-row">
-                <div
-                  class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4633abf"
-                  data-id="4633abf"
-                  data-element_type="column"
-                >
-                  <div
-                    class="elementor-column-wrap elementor-element-populated"
-                  >
-                    <div class="elementor-widget-wrap">
-                      <div
-                        class="elementor-element elementor-element-63681c9 elementor-widget elementor-widget-image"
-                        data-id="63681c9"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-image">
-                            <a
-                              href="https://halofina.onelink.me/CEgY/WebBanner"
-                            >
-                              <img
-                                src="https://halofina.com/wp-content/uploads/2021/07/App-Store.svg"
-                                class="attachment-full size-full"
-                                alt=""
-                                loading="lazy"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cd1723d"
-                  data-id="cd1723d"
-                  data-element_type="column"
-                >
-                  <div
-                    class="elementor-column-wrap elementor-element-populated"
-                  >
-                    <div class="elementor-widget-wrap">
-                      <div
-                        class="elementor-element elementor-element-a2bc001 elementor-widget elementor-widget-image"
-                        data-id="a2bc001"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-image">
-                            <a
-                              href="https://halofina.onelink.me/CEgY/WebBanner"
-                            >
-                              <img
-                                src="https://halofina.com/wp-content/uploads/2021/07/Play-Store.svg"
-                                class="attachment-full size-full"
-                                alt=""
-                                loading="lazy"
-                              />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section> -->
         </v-col>
       </v-row>
       <div class="svg-border-waves text-white">
