@@ -5,6 +5,8 @@
         <v-col cols="10">
           <v-card style="width: 100%">
             <h1 class="text-center pt-6 font-weight-light display-2">Planos</h1>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-10893172-c381-44d0-87cd-4f30382a1cfe"></div>
             <v-divider class="my-6"></v-divider>
             <v-row class="text-center">
               <v-col class="col-12 col-sm-6 col-md-4">

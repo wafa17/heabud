@@ -133,7 +133,8 @@
         ></path>
       </svg>
     </div>
-    
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-10893172-c381-44d0-87cd-4f30382a1cfe"></div>
   </section>
 </template>
 
