@@ -5,10 +5,10 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-bold mb-1 text">About Heabud</h1>
-              <h1 class="font-weight-normal mb-3 text-2">
+              <h1 class="font-weight">ABOUT HEABUD</h1>
+              <!-- <h1 class="font-weight-light mb-3">
                 We are your Healthy Buddy!
-              </h1>
+              </h1> -->
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
                   <!-- <v-img
@@ -41,8 +41,9 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p> -->
-                  <p class="text-justify"> Don't be afraid of not being able to exercise during the pandemic! We are here to keep you fit and accompanied by a Professional Trainer from HEABUD.
-                    Starting from choosing a trainer, consulting body fitness, to getting healthy food recipes, everything can be done through HEABUD. </p>
+                  <p class="text-justify"> Jangan takut tidak bisa berolahraga selama masa pandemi! <br>
+                  Kami hadir untuk menjaga kamu agar selalu tetap fit dan didampingi langsung oleh Trainer Profesional dari Heabud <br>
+                   </p>
                 </v-col>
               </v-row>
             </v-col>
@@ -69,25 +70,5 @@
   font-size: 40px;
   font-weight: bold;
 
-}
-
-.text{
-  color: #FCAC12;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 71.5%;
-}
-
-.text-2{
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 128.5%;
-  /* or 31px */
-  letter-spacing: 0.03em;
-  padding-bottom: 1px;
 }
 </style>

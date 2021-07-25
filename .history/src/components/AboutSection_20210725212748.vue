@@ -41,8 +41,9 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p> -->
-                  <p class="text-justify"> Don't be afraid of not being able to exercise during the pandemic! We are here to keep you fit and accompanied by a Professional Trainer from HEABUD.
-                    Starting from choosing a trainer, consulting body fitness, to getting healthy food recipes, everything can be done through HEABUD. </p>
+                  <p class="text-justify"> Jangan takut tidak bisa berolahraga selama masa pandemi! <br>
+                  Kami hadir untuk menjaga kamu agar selalu tetap fit dan didampingi langsung oleh Trainer Profesional dari HEABUD.
+                  Mulai dari pilih trainer, konsultasi kebugaran tubuh, hingga dapat resep makanan sehat semuanya bisa dilakukan melalui HEABUD </p>
                 </v-col>
               </v-row>
             </v-col>
@@ -76,7 +77,7 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 71.5%;
 }
 

@@ -42,7 +42,7 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p> -->
                   <p class="text-justify"> Don't be afraid of not being able to exercise during the pandemic! We are here to keep you fit and accompanied by a Professional Trainer from HEABUD.
-                    Starting from choosing a trainer, consulting body fitness, to getting healthy food recipes, everything can be done through HEABUD. </p>
+                    Starting from choosing a trainer, consulting body fitness, to getting healthy food recipes, everything can be done through HEABUD.
                 </v-col>
               </v-row>
             </v-col>
