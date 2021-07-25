@@ -22,7 +22,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Healthy Buddy</strong>
+        {{ new Date().getFullYear() }} — <strong>Healty Buddy</strong>
       </v-card-text>
     </v-card>
   </v-footer>

@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight">ABOUT HEABUD</h1>
+              <h1 class="font-weight-light">About Heabud</h1>
               <h1 class="font-weight-light mb-3">
                 We are your Healthy Buddy!
               </h1>
@@ -63,9 +63,9 @@
   background-color: #f4f7f5;
   font-family: 'Poppins';
 }
-.font-weight {
-  font-size: 40px;
-  font-weight: bold;
+.font-weight-light {
+  font-size: 31px;
+  font-weight: 700;
 
 }
 </style>

@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="mainfont">We Are Your </br> Healthy Buddy</h1>
+              <h1 class="font-weight-bold mb-4 42px">We Are Your Healthy Buddy</h1>
               <h1 class="font-weight-light">
                 Always keep your body fit and find a professional trainer who is always ready to help you <br />
               </h1>
@@ -366,11 +366,6 @@ export default {
 .up {
   transform: translateY(-20px);
   transition: 0.5s ease-out;
-}
-
-.mainfont{
-  font-size: 50px;
-  font-weight: bold;
 }
 </style>
 

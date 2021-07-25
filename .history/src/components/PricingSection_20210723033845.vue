@@ -211,7 +211,6 @@ ul {
 
 #pricing {
   z-index: 0;
-  font-family: 'Poppins';
 }
 
 .content {
