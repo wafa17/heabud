@@ -59,10 +59,10 @@
       />
       <div v-else>
         <v-btn text @click="$vuetify.goTo('#hero')">
-          <span class="mr-2">Home</span>
+          <span class="mr-2">About</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#features')">
-          <span class="mr-2">About</span>
+          <span class="mr-2">Feature</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
           <span class="mr-2">Download</span>

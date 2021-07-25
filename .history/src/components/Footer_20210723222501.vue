@@ -52,7 +52,7 @@ export default {
       },
       {
         text: "mdi-instagram",
-        link: "",
+        link: "https://instagram.com/joabson_arley/",
       },
     ],
   }),

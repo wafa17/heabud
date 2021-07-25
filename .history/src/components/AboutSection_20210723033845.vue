@@ -5,9 +5,9 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">About HeAbud</h1>
+              <h1 class="font-weight-light display-2">Sobre</h1>
               <h1 class="font-weight-light display-1 mb-3">
-                We are your Healthy Buddy!
+                Lorem ipsum dolor!
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
@@ -17,7 +17,9 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Find a professional trainer according to your needs
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -27,7 +29,9 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Get healthy food recipes that can maintain your healthy lifestyle
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">

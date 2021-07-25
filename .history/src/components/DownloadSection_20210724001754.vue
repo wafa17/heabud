@@ -34,7 +34,7 @@
 
 <style scoped>
 #download {
-  background-image: url("~@/assets/img/bghero1.png");
+  background-image: url("~@/assets/img/bgDownload.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

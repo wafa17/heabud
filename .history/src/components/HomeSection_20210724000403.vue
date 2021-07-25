@@ -5,9 +5,9 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">We Are Your Healthy Buddy</h1>
+              <h1 class="display-2 font-weight-bold mb-4">Heabud</h1>
               <h1 class="font-weight-light">
-                Always keep your body fit and find a professional trainer who is always ready to help you <br />
+                We are your Healthy Buddy! <br />
               </h1>
               <v-btn
                 rounded
@@ -17,7 +17,7 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                About HeAbud
+                Hero Feature
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
 
@@ -66,7 +66,7 @@
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
-          <!-- <section
+          <section
             class="elementor-section elementor-inner-section elementor-element elementor-element-6a44bbf elementor-section-full_width elementor-section-height-default elementor-section-height-default"
             data-id="6a44bbf"
             data-element_type="section"
@@ -141,8 +141,7 @@
                 </div>
               </div>
             </div>
-          </section> -->
-          
+          </section>
         </v-col>
       </v-row>
       <div class="svg-border-waves text-white">

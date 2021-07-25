@@ -1,13 +1,15 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/bghero1.png" height="1245">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">We Are Your Healthy Buddy</h1>
+              <h1 class="display-2 font-weight-bold mb-4">MentorKU Tim A</h1>
               <h1 class="font-weight-light">
-                Always keep your body fit and find a professional trainer who is always ready to help you <br />
+                Lorem ipsum dolor sit amet consectetur <br />
+                adipisicing elit. Maiores porro voluptatibus <br />
+                delectus nam optio harum!
               </h1>
               <v-btn
                 rounded
@@ -17,11 +19,11 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                About HeAbud
+                Hero Feature
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
 
-              <!-- <div class="video d-flex align-center py-4">
+              <div class="video d-flex align-center py-4">
                 <a @click.stop="dialog = true" class="playBut">
                   <svg
                     version="1.1"
@@ -62,7 +64,7 @@
                   </svg>
                 </a>
                 <p class="subheading ml-2 mb-0">Video Produk</p>
-              </div> -->
+              </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
@@ -91,7 +93,7 @@
                         <div class="elementor-widget-container">
                           <div class="elementor-image">
                             <a
-                              href=""
+                              href="https://halofina.onelink.me/CEgY/WebBanner"
                             >
                               <img
                                 src="https://halofina.com/wp-content/uploads/2021/07/App-Store.svg"
@@ -124,7 +126,7 @@
                         <div class="elementor-widget-container">
                           <div class="elementor-image">
                             <a
-                              href=""
+                              href="https://halofina.onelink.me/CEgY/WebBanner"
                             >
                               <img
                                 src="https://halofina.com/wp-content/uploads/2021/07/Play-Store.svg"
@@ -142,7 +144,6 @@
               </div>
             </div>
           </section> -->
-          
         </v-col>
       </v-row>
       <div class="svg-border-waves text-white">

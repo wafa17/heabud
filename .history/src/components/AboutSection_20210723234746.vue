@@ -27,7 +27,9 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Get healthy food recipes that can maintain your healthy lifestyle
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">

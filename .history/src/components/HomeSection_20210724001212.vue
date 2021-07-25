@@ -17,7 +17,7 @@
                 @click="$vuetify.goTo('#features')"
                 class="mt-5"
               >
-                About HeAbud
+                Hero Feature
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
 
