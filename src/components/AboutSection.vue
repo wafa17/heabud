@@ -48,7 +48,7 @@
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
-                src="@/assets/img/amico.png"
+                src="@/assets/img/rafiki.png"
                 class="d-block ml-auto mr-auto"
                 max-width="400px"
               />

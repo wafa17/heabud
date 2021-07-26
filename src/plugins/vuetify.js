@@ -8,7 +8,7 @@ export default new Vuetify({
         themes: {
             light: {
                 primary: "#65D1AA",
-                secondary: "#00A86B",
+                secondary: "#305049",
                 accent: "#93EACA"
             }
         }

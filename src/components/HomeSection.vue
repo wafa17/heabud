@@ -1,6 +1,6 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/HeroBg.png" height="1024px" >
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
@@ -14,10 +14,10 @@
                 outlined
                 large
                 dark
-                @click="$vuetify.goTo('#features')"
+                @click="$vuetify.goTo('#download')"
                 class="mt-5"
               >
-                About HeAbud
+                DOWNLOAD HEABUD
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
 
@@ -371,6 +371,11 @@ export default {
 .mainfont{
   font-size: 50px;
   font-weight: bold;
+}
+
+.v-parallax__image {
+ width: 100% !important;
+ height: 100% !important;
 }
 </style>
 
