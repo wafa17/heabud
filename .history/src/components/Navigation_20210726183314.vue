@@ -85,7 +85,7 @@
 }
 
 .expand {
-  height: 80px !important;
+  height: 70px !important;
   padding-top: 2%;
 }
 </style>

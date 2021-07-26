@@ -44,7 +44,7 @@
       app
       :color="color"
       :flat="flat"
-      dark
+      light
       class="px-15"
       :class="{ expand: flat }"
     >
