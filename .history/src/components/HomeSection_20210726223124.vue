@@ -34,7 +34,7 @@
         <v-col cols="10">
           <v-row align="center" justify="space-around">
             <v-col cols="12" class="text-center">
-              <h1 class="fontstyle font-weight-bold">Advantages of Using Heabud</h1>
+              <h1 class="font-weight-light ">HEABUD FEATURES</h1>
               <!-- <h1 class="font-weight-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </h1> -->
@@ -94,18 +94,18 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Personal Couch",
-          text: "Get personal couch and free consultation about your body fit.",
+          title: "Meet Trainer",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
           img: require("@/assets/img/icon1.png"),
           title: "Track Your Healthy Habits",
-          text: "Get scheduleboard about your training and your healthy habits",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
         {
           img: require("@/assets/img/icon3.png"),
-          title: "Healthy Recipes",
-          text: "Get a variety of healthy recipes by nutritionist that are tailored directly to your needs.",
+          title: "Get Healthy Recipes",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         },
       ],
     };
@@ -214,12 +214,6 @@ export default {
 #hero {
   z-index: 0;
   font-family: 'Poppins';
-}
-
-.fontstyle{
-  font-size: 32px;
-  margin-bottom: 2%;
-  margin-top: 4%;
 }
 .svg-border-waves img {
   position: absolute;

@@ -46,13 +46,13 @@
                 </v-col>
               </v-row>
             </v-col>
-            <v-col cols="12" md="5" class="d-none d-md-flex">
-              <!-- <v-img
+            <!-- <v-col cols="12" md="5" class="d-none d-md-flex">
+              <v-img
                 src="@/assets/img/launchscreen.png"
                 class="d-block ml-auto mr-auto"
                 max-width="100%"
-              /> -->
-            </v-col>
+              />
+            </v-col> -->
           </v-row>
         </v-col>
       </v-row>
@@ -63,16 +63,17 @@
 <style scoped>
 #about {
   background-color: #f4f7f5;
-  background-image: url("~@/assets/img/about.png");
+  /* background-image: url("~@/assets/img/about.png"); */
   font-family: "Poppins";
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 500px;
 }
-#about .row{
+
+/* #about .row{
   height: 500px;
-}
+} */
 
 .font-weight {
   font-size: 40px;

@@ -105,7 +105,7 @@ export default {
         {
           img: require("@/assets/img/icon3.png"),
           title: "Healthy Recipes",
-          text: "Get a variety of healthy recipes by nutritionist that are tailored directly to your needs.",
+          text: "Get ",
         },
       ],
     };
@@ -215,11 +215,10 @@ export default {
   z-index: 0;
   font-family: 'Poppins';
 }
-
 .fontstyle{
   font-size: 32px;
-  margin-bottom: 2%;
-  margin-top: 4%;
+  margin-bottom: 14px;
+  margin-top: 18px;
 }
 .svg-border-waves img {
   position: absolute;

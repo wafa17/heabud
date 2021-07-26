@@ -2,7 +2,7 @@
   <section id="about">
     <v-container fluid>
       <v-row align="center" justify="center">
-        <v-col cols="10">
+        <v-col cols="12">
           <v-row align="center" justify="center">
             <v-col cols="14" md="7">
               <h1 class="font-weight-bold mb-1 text">About Heabud</h1>
@@ -73,7 +73,6 @@
 #about .row{
   height: 500px;
 }
-
 .font-weight {
   font-size: 40px;
   font-weight: bold;

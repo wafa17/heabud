@@ -218,8 +218,8 @@ export default {
 
 .fontstyle{
   font-size: 32px;
-  margin-bottom: 2%;
-  margin-top: 4%;
+  margin-bottom: 14px;
+  margin-top: 24px;
 }
 .svg-border-waves img {
   position: absolute;

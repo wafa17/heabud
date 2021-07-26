@@ -120,18 +120,18 @@ export default {
     valid: true,
     name: "",
     nameRules: [
-      (v) => !!v || "Name cannot be empty",
-      (v) => (v && v.length >= 6) || "Name is not allowed less than 6 characters",
+      (v) => !!v || "fill the name",
+      (v) => (v && v.length >= 6) || "name is not allowed less than 6 characters",
     ],
     email: "",
     emailRules: [
-      (v) => !!v || "E-mail cannot be empty",
-      (v) => /.+@.+\..+/.test(v) || "E-mail not valid",
+      (v) => !!v || "",
+      (v) => /.+@.+\..+/.test(v) || "O E-mail precisa ser válido",
     ],
     textArea: "",
     textAreaRules: [
-      (v) => !!v || "Message cannot be empty",
-      (v) => (v && v.length >= 10) || "Minimum 10 characters",
+      (v) => !!v || "O campo de texto é obrigatório",
+      (v) => (v && v.length >= 10) || "Mínimo de 10 caracteres",
     ],
     lazy: false,
     snackbar: {

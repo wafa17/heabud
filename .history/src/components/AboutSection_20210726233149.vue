@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <v-container fluid>
+    <v-container >
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">

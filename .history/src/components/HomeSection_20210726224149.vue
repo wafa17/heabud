@@ -215,11 +215,10 @@ export default {
   z-index: 0;
   font-family: 'Poppins';
 }
-
 .fontstyle{
   font-size: 32px;
-  margin-bottom: 2%;
-  margin-top: 4%;
+  margin-bottom: 14px;
+  margin-top: 18px;
 }
 .svg-border-waves img {
   position: absolute;

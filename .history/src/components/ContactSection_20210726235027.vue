@@ -5,7 +5,7 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="text-2">Cantact Us</h1>
+              <h1 class="font-weight-bold display-1">Cantact Us</h1>
               <h3 class="font-weight-normal mt-3">
                 PT. Healthy Buddy Nusantara ("Heabud")
               </h3>
@@ -24,7 +24,7 @@
                 <v-text-field
                     v-model="name"
                     :rules="nameRules"
-                    label="Name"
+                    label="Nome"
                     required
                 ></v-text-field>
 
@@ -38,7 +38,7 @@
                 <v-textarea
                     v-model="textArea"
                     :rules="textAreaRules"
-                    label="Message"
+                    label="Mensagem"
                     required
                 />
 
@@ -51,7 +51,7 @@
                     class="mt-3"
                     @click="submit"
                 >
-                  Send
+                  Enviar
                 </v-btn>
               </v-form>
             </v-col>
@@ -100,14 +100,6 @@
   width: 100%;
   overflow: hidden;
 }
-.text-2{
-  font-family: Poppins;
-  font-style: bold;
-  font-size: 32px;
-  line-height: 128.5%;
-  /* or 31px */
-  padding-bottom: 1px;
-}
 
 </style>
 
@@ -120,18 +112,18 @@ export default {
     valid: true,
     name: "",
     nameRules: [
-      (v) => !!v || "Name cannot be empty",
-      (v) => (v && v.length >= 6) || "Name is not allowed less than 6 characters",
+      (v) => !!v || "O campo nome é obrigatório",
+      (v) => (v && v.length >= 6) || "O nome precisa ter mais de 6 caracteres",
     ],
     email: "",
     emailRules: [
-      (v) => !!v || "E-mail cannot be empty",
-      (v) => /.+@.+\..+/.test(v) || "E-mail not valid",
+      (v) => !!v || "O campo email é obrigatório",
+      (v) => /.+@.+\..+/.test(v) || "O E-mail precisa ser válido",
     ],
     textArea: "",
     textAreaRules: [
-      (v) => !!v || "Message cannot be empty",
-      (v) => (v && v.length >= 10) || "Minimum 10 characters",
+      (v) => !!v || "O campo de texto é obrigatório",
+      (v) => (v && v.length >= 10) || "Mínimo de 10 caracteres",
     ],
     lazy: false,
     snackbar: {

@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <v-col cols="14" md="7">
+            <v-col cols="12" md="8">
               <h1 class="font-weight-bold mb-1 text">About Heabud</h1>
               <h1 class="font-weight-bold mb-3 text-2">
                 We are your Healthy Buddy!
@@ -73,7 +73,6 @@
 #about .row{
   height: 500px;
 }
-
 .font-weight {
   font-size: 40px;
   font-weight: bold;

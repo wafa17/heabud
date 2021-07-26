@@ -73,7 +73,9 @@
 #about .row{
   height: 500px;
 }
-
+#about .container{
+  height: 500px;
+}
 .font-weight {
   font-size: 40px;
   font-weight: bold;

@@ -218,7 +218,7 @@ export default {
 
 .fontstyle{
   font-size: 32px;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   margin-top: 4%;
 }
 .svg-border-waves img {

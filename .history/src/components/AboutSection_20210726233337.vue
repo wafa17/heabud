@@ -46,13 +46,13 @@
                 </v-col>
               </v-row>
             </v-col>
-            <v-col cols="12" md="5" class="d-none d-md-flex">
-              <!-- <v-img
+            <!-- <v-col cols="12" md="5" class="d-none d-md-flex">
+              <v-img
                 src="@/assets/img/launchscreen.png"
                 class="d-block ml-auto mr-auto"
                 max-width="100%"
-              /> -->
-            </v-col>
+              />
+            </v-col> -->
           </v-row>
         </v-col>
       </v-row>
@@ -71,6 +71,9 @@
   height: 500px;
 }
 #about .row{
+  height: 500px;
+}
+#about .h1{
   height: 500px;
 }
 

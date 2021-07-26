@@ -5,26 +5,28 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="text-2">Cantact Us</h1>
-              <h3 class="font-weight-normal mt-3">
-                PT. Healthy Buddy Nusantara ("Heabud")
+              <h1 class="font-weight-light display-1">Contate-nos</h1>
+              <h3 class="font-weight-light mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                explicabo commodi quisquam asperiores dolore ad enim provident
+                veniam perferendis voluptate, perspiciatis.
               </h3>
-              <p class="font-weight-light mt-3"> CoHive 101 9th Floor #1-9,17-20
-                  Jl. Mega Kuningan Barat Kav. E.4.7
-                  Kawasan Mega Kuningan, Jakarta Selatan 12950 </p> 
-              <h4 class="font-weight-light mt-3">
-                Telefone: +62 813-4567-8948
-              </h4>
-              <h4 class="font-weight-light">
-                Email: cs@heabud.com
-              </h4>
+              <h3 class="font-weight-light mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+              </h3>
+              <h3 class="font-weight-light mt-3">
+                Telefone: +xx (xx) xxxxx-xxxx
+              </h3>
+              <h3 class="font-weight-light">
+                Email: email@email.com
+              </h3>
             </v-col>
             <v-col cols="12" sm="7">
               <v-form ref="form" v-model="valid" :lazy-validation="lazy">
                 <v-text-field
                     v-model="name"
                     :rules="nameRules"
-                    label="Name"
+                    label="Nome"
                     required
                 ></v-text-field>
 
@@ -38,7 +40,7 @@
                 <v-textarea
                     v-model="textArea"
                     :rules="textAreaRules"
-                    label="Message"
+                    label="Mensagem"
                     required
                 />
 
@@ -51,7 +53,7 @@
                     class="mt-3"
                     @click="submit"
                 >
-                  Send
+                  Enviar
                 </v-btn>
               </v-form>
             </v-col>
@@ -87,11 +89,9 @@
 <style scoped>
 #contact {
   background-color: #f4f7f5;
-  height: 500px;
   font-family: 'Poppins';
-  padding-top: 2%;
-  padding-bottom: 3%;
 }
+
 .svg-border-waves .v-image {
   position: absolute;
   bottom: 0;
@@ -99,14 +99,6 @@
   height: 3rem;
   width: 100%;
   overflow: hidden;
-}
-.text-2{
-  font-family: Poppins;
-  font-style: bold;
-  font-size: 32px;
-  line-height: 128.5%;
-  /* or 31px */
-  padding-bottom: 1px;
 }
 
 </style>
@@ -120,18 +112,18 @@ export default {
     valid: true,
     name: "",
     nameRules: [
-      (v) => !!v || "Name cannot be empty",
-      (v) => (v && v.length >= 6) || "Name is not allowed less than 6 characters",
+      (v) => !!v || "O campo nome é obrigatório",
+      (v) => (v && v.length >= 6) || "O nome precisa ter mais de 6 caracteres",
     ],
     email: "",
     emailRules: [
-      (v) => !!v || "E-mail cannot be empty",
-      (v) => /.+@.+\..+/.test(v) || "E-mail not valid",
+      (v) => !!v || "O campo email é obrigatório",
+      (v) => /.+@.+\..+/.test(v) || "O E-mail precisa ser válido",
     ],
     textArea: "",
     textAreaRules: [
-      (v) => !!v || "Message cannot be empty",
-      (v) => (v && v.length >= 10) || "Minimum 10 characters",
+      (v) => !!v || "O campo de texto é obrigatório",
+      (v) => (v && v.length >= 10) || "Mínimo de 10 caracteres",
     ],
     lazy: false,
     snackbar: {

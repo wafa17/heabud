@@ -24,7 +24,7 @@
                 <v-text-field
                     v-model="name"
                     :rules="nameRules"
-                    label="Name"
+                    label="Nome"
                     required
                 ></v-text-field>
 
@@ -38,7 +38,7 @@
                 <v-textarea
                     v-model="textArea"
                     :rules="textAreaRules"
-                    label="Message"
+                    label="Mensagem"
                     required
                 />
 
@@ -51,7 +51,7 @@
                     class="mt-3"
                     @click="submit"
                 >
-                  Send
+                  Enviar
                 </v-btn>
               </v-form>
             </v-col>
@@ -103,9 +103,11 @@
 .text-2{
   font-family: Poppins;
   font-style: bold;
+  font-weight: 500;
   font-size: 32px;
   line-height: 128.5%;
   /* or 31px */
+  letter-spacing: 0.03em;
   padding-bottom: 1px;
 }
 
@@ -120,18 +122,18 @@ export default {
     valid: true,
     name: "",
     nameRules: [
-      (v) => !!v || "Name cannot be empty",
-      (v) => (v && v.length >= 6) || "Name is not allowed less than 6 characters",
+      (v) => !!v || "O campo nome é obrigatório",
+      (v) => (v && v.length >= 6) || "O nome precisa ter mais de 6 caracteres",
     ],
     email: "",
     emailRules: [
-      (v) => !!v || "E-mail cannot be empty",
-      (v) => /.+@.+\..+/.test(v) || "E-mail not valid",
+      (v) => !!v || "O campo email é obrigatório",
+      (v) => /.+@.+\..+/.test(v) || "O E-mail precisa ser válido",
     ],
     textArea: "",
     textAreaRules: [
-      (v) => !!v || "Message cannot be empty",
-      (v) => (v && v.length >= 10) || "Minimum 10 characters",
+      (v) => !!v || "O campo de texto é obrigatório",
+      (v) => (v && v.length >= 10) || "Mínimo de 10 caracteres",
     ],
     lazy: false,
     snackbar: {

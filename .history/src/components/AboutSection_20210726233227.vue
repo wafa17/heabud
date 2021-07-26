@@ -67,7 +67,7 @@
   font-family: "Poppins";
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   height: 500px;
 }
 #about .row{
