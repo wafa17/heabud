@@ -82,6 +82,7 @@
 .v-toolbar {
   transition: 0.6s;
   font-family: 'Poppins';
+  padding-top: 2%;
 }
 
 .expand {

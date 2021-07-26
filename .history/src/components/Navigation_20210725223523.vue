@@ -54,7 +54,7 @@
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
-        class="mr-4"
+        class="mr-5"
         v-if="isXs"
       />
       <div v-else>
@@ -86,7 +86,7 @@
 
 .expand {
   height: 80px !important;
-  padding-top: 2%;
+  padding-top: 15px;
 }
 </style>
 
