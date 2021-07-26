@@ -377,7 +377,7 @@ export default {
  width: 100% !important;
  /* transform: none !important; */
  /* height: 100% !important; */
-/* } */ 
+} */
 </style>
 
 <style>

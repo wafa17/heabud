@@ -1,6 +1,6 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/HeroBg.png" height="750" >
+    <v-parallax dark src="@/assets/img/HeroBg.png" height="1024px" >
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
@@ -373,11 +373,11 @@ export default {
   font-weight: bold;
 }
 
-/* .v-parallax__image {
+.v-parallax__image {
  width: 100% !important;
- /* transform: none !important; */
+ 
  /* height: 100% !important; */
-/* } */ 
+}
 </style>
 
 <style>
