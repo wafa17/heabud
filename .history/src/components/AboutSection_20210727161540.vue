@@ -9,32 +9,16 @@
               <h1 class="font-weight-bold mb-3 text-2">
                 We are your Healthy Buddy!
               </h1>
-              <h3 class="font-weight-light">
-                Don't be afraid of not being able to exercise during the
-                pandemic! We are here to keep you fit and accompanied by a
-                Professional Couch from HEABUD. Starting from choosing a couch,
-                consulting body fitness, to getting healthy food recipes,
-                everything can be done through HEABUD.
-              </h3>
-              <v-btn
-                rounded
-                outlined
-                large
-                light
-                @click="$vuetify.goTo('#contact')"
-                class="mt-5"
-              >
-                CONTACT US
-                <v-icon class="ml-2">mdi-arrow-down</v-icon>
-              </v-btn>
+                  <h3 class="font-weight-light">Don't be afraid of not being able to exercise during the pandemic! We are here to keep you fit and accompanied by a Professional Couch from HEABUD.
+                    Starting from choosing a couch, consulting body fitness, to getting healthy food recipes, everything can be done through HEABUD. </h3>
             </v-col>
-            <v-col cols="8" md="4" xl="2" class="hidden-sm-and-down">
+            <v-col cols="8" md="4" xl="2" class="hidden-sm-and-down"> 
               <v-img
-                src="@/assets/img/trainer.png"
+                src="@/assets/img/hom2.png"
                 id="hom"
                 class="d-block ml-auto mr-auto"
-                max-height="1000px"
-                max-width="300px"
+                height="600px"
+                max-width="500px"
               />
             </v-col>
           </v-row>
@@ -52,19 +36,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 550px;
+  height: 500px;
 }
-#about .row {
+#about .row{
   height: 100%;
 }
 
 .font-weight {
   font-size: 40px;
   font-weight: bold;
+
 }
 
-.text {
-  color: #00a86b;
+.text{
+  color: #00A86B;
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
@@ -72,7 +57,7 @@
   line-height: 71.5%;
 }
 
-.text-2 {
+.text-2{
   font-family: Poppins;
   font-style: bold;
   font-weight: 500;

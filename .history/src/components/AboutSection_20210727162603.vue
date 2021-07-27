@@ -20,11 +20,11 @@
                 rounded
                 outlined
                 large
-                light
-                @click="$vuetify.goTo('#contact')"
+                dark
+                @click="$vuetify.goTo('#download')"
                 class="mt-5"
               >
-                CONTACT US
+                DOWNLOAD HEABUD
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
             </v-col>
@@ -52,7 +52,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 550px;
+  height: 500px;
 }
 #about .row {
   height: 100%;

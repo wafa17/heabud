@@ -52,7 +52,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 550px;
+  height: 500px;
 }
 #about .row {
   height: 100%;
