@@ -103,7 +103,7 @@ export default {
         {
           img: require("@/assets/img/icon2.png"),
           title: "Personal Trainer",
-          text: "Get personal trainer with free consultation about your body fitness.",
+          text: "Get personal Trainer and free consultation about your body fit.",
         },
         {
           img: require("@/assets/img/icon1.png"),
