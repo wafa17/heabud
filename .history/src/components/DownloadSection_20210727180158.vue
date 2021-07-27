@@ -2,7 +2,7 @@
   <section id="download">
     <v-container>
       <v-row align="center" justify="center">
-        <v-col cols="10">
+        <v-col cols="12">
           <v-row align="center" justify="center">
             <!-- <v-col sm="4" class="hidden-xs-only">
               <v-img
@@ -64,7 +64,6 @@
 #download .container,
 #download .row {
   height: 100%;
-  margin-left: 8%;
 }
 
 .mainfont {

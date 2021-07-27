@@ -11,16 +11,15 @@
                 max-width="350px"
               />
             </v-col> -->
-            <v-col  cols="14" md="8"  class="white--text text-left">
+            <v-col  cols="14" md="7"  class="white--text text-left">
               <h1 class="mainfont mb-2">Download Now!</h1>
               <h3 class="font-weight-light" >
                 We are already available on various application stores. 
                 <br>What still makes you doubt? <br />
                 Just download it and enjoy the amazing features.
               </h3>
-              <div id="icon">
-                <v-row>
-                  <v-col md="6" sm="4" >
+                <v-row  align="center">
+                  <v-col sm="5" >
                     <a href="">
                       <v-img
                         src="@/assets/img/googleplay.svg"
@@ -30,7 +29,7 @@
                       />
                     </a>
                   </v-col>
-                  <v-col  md="6" sm="4" >
+                  <v-col sm="5" >
                     <a href="">
                     <v-img
                       src="@/assets/img/appstore.svg"
@@ -41,7 +40,6 @@
                     </a>
                   </v-col>
                 </v-row>
-              </div>
             </v-col>
           </v-row>
         </v-col>
@@ -64,7 +62,6 @@
 #download .container,
 #download .row {
   height: 100%;
-  margin-left: 8%;
 }
 
 .mainfont {
@@ -73,10 +70,7 @@
    line-height: 128.5%;
   /* or 31px */
   letter-spacing: 0.03em;
-  margin-top: 6%;
-}
-#icon{
-  margin-left: 0%;
+  margin-top: 4%;
 }
 .v-img{
   height: auto;

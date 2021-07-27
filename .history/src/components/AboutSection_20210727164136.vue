@@ -46,7 +46,7 @@
 
 <style scoped>
 #about {
-  background-color: #F8F8F8;
+  background-color: #f4f7f5;
   /* background-image: url("~@/assets/img/about.png"); */
   font-family: "Poppins";
   background-repeat: no-repeat;

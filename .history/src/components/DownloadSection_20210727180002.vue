@@ -64,7 +64,6 @@
 #download .container,
 #download .row {
   height: 100%;
-  margin-left: 8%;
 }
 
 .mainfont {

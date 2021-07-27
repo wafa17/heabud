@@ -4,13 +4,13 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <!-- <v-col sm="4" class="hidden-xs-only">
+            <v-col sm="4" class="hidden-xs-only">
               <v-img
                 src="@/assets/img/Focus.svg"
                 class="d-block ml-auto mr-auto"
                 max-width="350px"
               />
-            </v-col> -->
+            </v-col>
             <v-col  cols="14" md="8"  class="white--text text-left">
               <h1 class="mainfont mb-2">Download Now!</h1>
               <h3 class="font-weight-light" >
@@ -64,7 +64,6 @@
 #download .container,
 #download .row {
   height: 100%;
-  margin-left: 8%;
 }
 
 .mainfont {

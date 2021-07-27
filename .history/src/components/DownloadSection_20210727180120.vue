@@ -11,7 +11,7 @@
                 max-width="350px"
               />
             </v-col> -->
-            <v-col  cols="14" md="8"  class="white--text text-left">
+            <v-col  cols="12" md="8"  class="white--text text-left">
               <h1 class="mainfont mb-2">Download Now!</h1>
               <h3 class="font-weight-light" >
                 We are already available on various application stores. 
@@ -64,7 +64,6 @@
 #download .container,
 #download .row {
   height: 100%;
-  margin-left: 8%;
 }
 
 .mainfont {

@@ -19,7 +19,7 @@
                 Just download it and enjoy the amazing features.
               </h3>
               <div id="icon">
-                <v-row>
+                <v-row >
                   <v-col md="6" sm="4" >
                     <a href="">
                       <v-img
@@ -30,7 +30,7 @@
                       />
                     </a>
                   </v-col>
-                  <v-col  md="6" sm="4" >
+                  <v-col cols="14" md="6" sm="4" >
                     <a href="">
                     <v-img
                       src="@/assets/img/appstore.svg"
