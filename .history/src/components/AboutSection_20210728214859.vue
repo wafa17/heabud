@@ -17,7 +17,7 @@
                 recipes, everything can be done through HEABUD. -->
                 <!-- <br /> -->
                 Heabud (Healthy Buddy) is a lifestyle - sport application to
-                assist users towards in their healthy habit. We provide a gate
+                assist users towards / in their healthy habit. We provide a gate
                 between users and trainer, healthy food, and healthy body.
               </h3>
               <v-btn

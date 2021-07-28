@@ -7,18 +7,16 @@
             <v-col cols="14" md="7">
               <h1 class="font-weight-bold mb-1 text">About Heabud</h1>
               <h1 class="font-weight-bold mb-3 text-2">
-               Your Body's Buddy!
+                We are your Healthy Buddy!
               </h1>
               <h3 class="font-weight-light">
-                <!-- Don't be afraid of not being able to exercise during the
+                Don't be afraid of not being able to exercise during the
                 pandemic! We are here to keep you fit and accompanied by a
-                Professional Trainer from HEABUD. Starting from choosing a
-                Trainer, consulting body fitness, to getting healthy food
-                recipes, everything can be done through HEABUD. -->
-                <!-- <br /> -->
-                Heabud (Healthy Buddy) is a lifestyle - sport application to
-                assist users towards in their healthy habit. We provide a gate
-                between users and trainer, healthy food, and healthy body.
+                Professional Trainer from HEABUD. Starting from choosing a Trainer,
+                consulting body fitness, to getting healthy food recipes,
+                everything can be done through HEABUD.
+                <br>
+                Heabud (Healthy Buddy) is a lifestyle - sport application to assist users towards / in their healthy habit. We provide a gate between users and trainer, healthy food, and healthy body.
               </h3>
               <v-btn
                 rounded
@@ -50,7 +48,7 @@
 
 <style scoped>
 #about {
-  background-color: #f8f8f8;
+  background-color: #F8F8F8;
   /* background-image: url("~@/assets/img/about.png"); */
   font-family: "Poppins";
   background-repeat: no-repeat;
