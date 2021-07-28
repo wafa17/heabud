@@ -216,6 +216,7 @@ export default {
   left: 0;
   height: 3rem;
   width: 100%;
+  margin-bottom: 4%;
   overflow: hidden;
 }
 

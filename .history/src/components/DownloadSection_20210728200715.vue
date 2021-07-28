@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <v-col cols="6" md="3" sm="2">
+            <v-col sm="4" class="hidden-xs-only">
               <v-img
                 src="@/assets/img/mockup.png"
                 class="d-block ml-auto mr-auto"
@@ -20,7 +20,7 @@
               </h3>
               <div id="icon">
                 <v-row>
-                  <v-col md="5" sm="4" >
+                  <v-col md="6" sm="4" >
                     <a href="">
                       <v-img
                         src="@/assets/img/googleplay.svg"
@@ -30,7 +30,7 @@
                       />
                     </a>
                   </v-col>
-                  <v-col  md="5" sm="4" >
+                  <v-col  md="6" sm="4" >
                     <a href="">
                     <v-img
                       src="@/assets/img/appstore.svg"
@@ -52,8 +52,8 @@
 
 <style scoped>
 #download {
-  /* background-image: url("~@/assets/img/download2.png"); */
-  background-color: #73B58B;
+  background-image: url("~@/assets/img/download2.png");
+  /* background-color: #73B58B; */
   font-family: "Poppins";
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,7 @@
 #download .container,
 #download .row {
   height: 100%;
-  /* margin-left: 8%; */
+  margin-left: 8%;
 }
 
 .mainfont {

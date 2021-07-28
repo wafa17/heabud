@@ -1,11 +1,11 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/HeroBg2.png" height="820" >
+    <v-parallax dark src="@/assets/img/HeroBg2.png" height="800" >
       <v-row align="center" justify="center">
         <v-col cols="12">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="mainfont">We Are Your Healthy Buddy</h1>
+              <h1 class="mainfont">HEADBUD <br> We Are Your Healthy Buddy</h1>
               <h2 class="font-weight-light">
                 Always keep your body fit and find a professional trainer who is always ready to help you
               </h2>

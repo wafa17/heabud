@@ -61,12 +61,12 @@
                   :elevation="hover ? 10 : 4"
                   :class="{ up: hover }"
                 >
-                  <v-img
+                  <!-- <v-img
                     :src="feature.img"
                     max-width="100px"
                     class="d-block ml-auto mr-auto"
                     :class="{ 'zoom-efect': hover }"
-                  ></v-img>
+                  ></v-img> -->
                   <h1 class="font-weight-regular">{{ feature.title }}</h1>
                   <h4 class="font-weight-regular subtitle-1">
                     {{ feature.text }}

@@ -214,7 +214,7 @@ export default {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 3rem;
+  height: 10rem;
   width: 100%;
   overflow: hidden;
 }

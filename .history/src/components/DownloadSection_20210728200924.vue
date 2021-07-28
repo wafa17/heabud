@@ -4,7 +4,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <v-col cols="6" md="3" sm="2">
+            <v-col sm="3" class="hidden-xs-only">
               <v-img
                 src="@/assets/img/mockup.png"
                 class="d-block ml-auto mr-auto"
