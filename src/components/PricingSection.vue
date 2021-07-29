@@ -17,17 +17,19 @@
                     </div>
                     <div class="text text-uppercase  my-2">Beginner</div>
                      <v-divider class="my-2"/>
-                    <div class="text">Free Access to All Online Classes</div>
+                    <div class="text"> 4 Session with Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Personal Trainer</div>
+                    <div class="text">2 Healthy Recipes</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Healthy Calculator</div>
+                    <div class="text">Body Progress Tracker</div>
                     <v-divider class="my-2"/>
-                    <div class="text--disabled">Healthy Recipes</div>
+                    <div class="text">Unlimited Consultation with Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div class="text--disabled">Rental Sports Equipment</div>
+                    <div class="text--disabled">Priority Schedule</div>
                     <v-divider class="my-2"/>
-                    <div id="pricetag" class="text mt-6">Rp 120.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 300.000</div>
+                    <div id="pricetag" class="text mt-2">Rp 250.000</div>
+                    <div id= "caption" class="text mt-2 font-weight-light">*per month</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -52,17 +54,19 @@
                     </div>
                     <div class="text text-uppercase  my-2">Intermediate</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Free Access to All Online Classes</div>
+                    <div class="text">6 Session with Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Rental Sports Equipment</div>
+                    <div class="text">4 Healthy Recipes</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Personal Trainer</div>
+                    <div class="text">Body Progress Tracker</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Healthy Calculator</div>
+                    <div class="text">Unlimited Consultation with Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div class="text--disabled">Healthy Recipes</div>
+                    <div class="text">Priority Schedule</div>
                     <v-divider class="my-2"/>
-                    <div id="pricetag" class="text mt-6">Rp 150.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 400.000</div>
+                    <div id="pricetag" class="text mt-2">Rp 350.000</div>
+                    <div id= "caption" class="text mt-2 font-weight-light">*per month</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -89,17 +93,19 @@
                     </div>
                     <div class="text text-uppercase  my-2">Advanced</div>
                      <v-divider class="my-2"/>
-                    <div class="text">Free Access to All Online Classes</div>
+                    <div class="text">Unlimited Session with Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Rental Sports Equipment</div>
+                    <div class="text">10 Healthy Recipes</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Personal Trainer</div>
+                    <div class="text">Body Progress Tracker</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Healthy Calculator</div>
+                    <div class="text">Unlimited Consultation with Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Healthy Recipes</div>
+                    <div class="text">Top Priority Schedule</div>
                     <v-divider class="my-2"/>
-                    <div id="pricetag" class="text mt-6">Rp 200.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 950.000</div>
+                    <div id="pricetag" class="text mt-2">Rp 800.000</div>
+                    <div id= "caption" class="text mt-2 font-weight-light">*per 3 month</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -122,19 +128,21 @@
                           <v-img src="~@/assets/img/extra.png"></v-img>
                       </div>
                     </div>
-                    <div class="text text-uppercase  my-2">Extra</div>
+                    <div class="text text-uppercase  my-2">Diet Plan</div>
                      <v-divider class="my-2"/>
-                    <div class="text">Consultation with Nutritionist</div>
+                    <div class="text">14 Healthy Recipes</div>
+                    <v-divider class="my-2"/>
+                    <div class="text">Free Consultation in Advance with a Nutritionist</div>
                     <v-divider class="my-2"/>
                     <div class="text">Healthy Calculator</div>
                     <v-divider class="my-2"/>
-                    <div class="text">Healthy Recipes</div>
-                    <v-divider class="my-2"/>
-                    <div class="text--disabled">Rental Sports Equipment</div>
+                    <div class="text--disabled">Body Progress Tracker</div>
                     <v-divider class="my-2"/>
                     <div class="text--disabled">Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div id="pricetag" class="text mt-6">Rp 60.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 250.000</div>
+                    <div id="pricetag" class="text mt-2">Rp 200.000</div>
+                    <div id= "caption" class="text mt-2 font-weight-light">*per 14 days</div>
                     <v-btn
                         v-bind="size"
                         rounded
@@ -282,6 +290,11 @@ ul {
   font-family: Poppins;
   font-weight: normal;
   font-size: 24px;
+}
+
+#discount{
+  font-size: 21px;
+  color: #00A86B;
 }
 
 svg {

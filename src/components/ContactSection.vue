@@ -7,7 +7,7 @@
             <v-col cols="12" sm="5">
               <h1 class="text-2">Contact Us</h1>
               <h3 class="font-weight-normal mt-3">
-                PT. Healthy Buddy Nusantara ("Heabud")
+                PT. Teman Sehat ("Heabud")
               </h3>
               <p class="font-weight-light mt-3"> CoHive 101 9th Floor #1-9,17-20
                   Jl. Mega Kuningan Barat Kav. E.4.7
@@ -87,10 +87,10 @@
 <style scoped>
 #contact {
   background-color: #F8F8F8;
-  height: 500px;
+  height: 540px;
   font-family: 'Poppins';
-  padding-top: 2%;
-  padding-bottom: 3%;
+  padding-top: 4%;
+  padding-bottom: 5%;
 }
 .svg-border-waves .v-image {
   position: absolute;
