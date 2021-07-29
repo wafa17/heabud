@@ -27,7 +27,7 @@
                     <v-divider class="my-2"/>
                     <div class="text--disabled">Priority Schedule</div>
                     <v-divider class="my-2"/>
-                    <div id= "discount" class="text mt-10 text-decoration-line-through"> Rp 300.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 300.000</div>
                     <div id="pricetag" class="text mt-2">Rp 250.000</div>
                     <div id= "caption" class="text mt-2 font-weight-light">*per month</div>
                     <v-btn
@@ -64,7 +64,7 @@
                     <v-divider class="my-2"/>
                     <div class="text">Priority Schedule</div>
                     <v-divider class="my-2"/>
-                    <div id= "discount" class="text mt-9 text-decoration-line-through"> Rp 400.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 400.000</div>
                     <div id="pricetag" class="text mt-2">Rp 350.000</div>
                     <div id= "caption" class="text mt-2 font-weight-light">*per month</div>
                     <v-btn
@@ -140,7 +140,7 @@
                     <v-divider class="my-2"/>
                     <div class="text--disabled">Personal Trainer</div>
                     <v-divider class="my-2"/>
-                    <div id= "discount" class="text mt-9 text-decoration-line-through"> Rp 250.000</div>
+                    <div id= "discount" class="text mt-4 text-decoration-line-through"> Rp 250.000</div>
                     <div id="pricetag" class="text mt-2">Rp 200.000</div>
                     <div id= "caption" class="text mt-2 font-weight-light">*per 14 days</div>
                     <v-btn
