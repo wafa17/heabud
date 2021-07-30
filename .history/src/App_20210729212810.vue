@@ -7,7 +7,7 @@
       <download />
       <pricing />
       <team/>
-      <!-- <slider/> -->
+      <slider/>
       <contact />
     </v-main>
     <v-scale-transition>
@@ -47,7 +47,7 @@ import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
 import team from './components/TeamSection.vue';
-// import slider from './components/GlideSlide.vue'
+import slider from './components/GlideSlide.vue'
 
 
 
@@ -63,7 +63,7 @@ export default {
     pricing,
     contact,
     team,
-    // slider,
+    slider,
   },
 
   data: () => ({

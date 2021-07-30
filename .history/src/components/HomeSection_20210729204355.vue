@@ -21,12 +21,12 @@
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
             </v-col>
-            <v-col cols="8"  xl="2" md="4"  class="hidden-sm-and-down"> 
+            <v-col cols="8"  xl="2" md="4" sm="6" xs="8" class="hidden-down"> 
               <v-img
                 src="@/assets/img/hom2.png"
                 id="hom"
                 class="d-block ml-auto mr-auto"
-                height="auto"
+                height="600px"
                 max-width="500px"
               />
             </v-col>

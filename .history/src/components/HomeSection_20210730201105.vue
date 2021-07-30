@@ -26,8 +26,8 @@
                 src="@/assets/img/hom2.png"
                 id="hom"
                 class="d-block ml-auto mr-auto"
-                height="auto"
-                max-width="500px"
+                height="600px"
+                max-width="450px"
               />
             </v-col>
           </v-row>

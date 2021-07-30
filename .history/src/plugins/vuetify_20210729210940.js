@@ -3,7 +3,6 @@ import Vuetify from 'vuetify/lib';
 import VueGlide from 'vue-glide-js'
 
 Vue.use(Vuetify);
-Vue.use(VueGlide)
 
 export default new Vuetify({
     theme: {
